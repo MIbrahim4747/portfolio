@@ -46,7 +46,7 @@ function Content() {
               </div>
             </div>
           </section>
-          <section className="cards">
+          <section className="cards" id="cards">
             <div className="card card1 active">
               <div className="cardLogo">
                 <i className="fa-solid fa-cube fa-beat-fade"></i>
@@ -100,7 +100,7 @@ function Content() {
               <img src={Logo1} alt="logo1" />
             </div>
           </section>
-          <section className="portfolio">
+          <section className="portfolio" id="portfolio">
             <div className="pfText">
               <h4 className="rightLine grayColor">portfolio</h4>
               <h2 className="offWhite">

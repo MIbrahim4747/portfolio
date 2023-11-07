@@ -40,7 +40,7 @@ function Blog() {
   };
   return (
     <div>
-      <section className="blog">
+      <section className="blog" id="blog">
         <div className="blogTop">
           <div className="blogLeft">
             <h4 className="rightLine grayColor">blog</h4>

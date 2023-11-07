@@ -16,9 +16,15 @@ function Header() {
             <img src={logoPng} alt="logo" />
           </div>
           <ul className={`navLinks ${isNavActive ? "activeLinks" : ""}`}>
-            <li>Services</li>
-            <li>Work</li>
-            <li>Blog</li>
+            <li>
+              <a href="#cards">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Work</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
           </ul>
           <div className="menu" onClick={toggleNav}>
             <i className="fa-solid fa-bars"></i>
