@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.16670b14.css",
+    "main.js": "/static/js/main.bc2eaef3.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/man3.png": "/static/media/man3.862c9417cfcec87ee143.png",
+    "static/media/man2.png": "/static/media/man2.d2fe00b3eb387ddf6bbd.png",
+    "static/media/man.png": "/static/media/man.cdb78fcfffd9be4fae1e.png",
+    "static/media/man1.png": "/static/media/man1.70e3cb85bf2147b382b2.png",
+    "static/media/logo1.png": "/static/media/logo1.61c415c584f5dee1157c.png",
+    "static/media/web2.jpg": "/static/media/web2.d30aae0a5748e85b19b9.jpg",
+    "static/media/Walt Disney Studios Motion Pictures.png": "/static/media/Walt Disney Studios Motion Pictures.3e00fbd33f23fc81c1e0.png",
+    "static/media/web1.jpg": "/static/media/web1.3d7c52eb5318ff77357a.jpg",
+    "static/media/web3.jpg": "/static/media/web3.83a59848557ca9579067.jpg",
+    "static/media/logo.png": "/static/media/logo.3fb8226ecf764b888a9d.png",
+    "index.html": "/index.html",
+    "main.16670b14.css.map": "/static/css/main.16670b14.css.map",
+    "main.bc2eaef3.js.map": "/static/js/main.bc2eaef3.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16670b14.css",
+    "static/js/main.bc2eaef3.js"
+  ]
+}
