@@ -1,25 +1,28 @@
 import React, { useState } from "react";
 
-import Slide1 from "../images/Free Photo _ Guy in hooded sweatshirt in the dark.jpg";
-import Slide2 from "../images/Premium_Photo___Medium_shot_of_man_using_a_laptop-removebg-preview.png";
-import Slide3 from "../images/decentMan.jpg";
+import Slide1 from "../images/man1.png";
+import Slide2 from "../images/man2.png";
+import Slide3 from "../images/man3.png";
 
 function Blog() {
   let slides = [
     {
       src: Slide1,
       content:
-        "asbdbasbhiqaraiosdioasd huiohasdhashdashdha udfh ufh  f asd f sdf s udfa UA UAS ",
+        "Working with this guy as our web developer has been an absolute pleasure. Their attention to detail, coding skills, and dedication to the project were truly impressive. I couldn't be happier with the website they created, and I highly recommend their services.",
+      name: "Jon Wale",
     },
     {
       src: Slide2,
       content:
-        "ASD HAHSD UASHD HASD IOIAOS ASDH OASHD AOS OAISH IOASHD AOHSD A SDOAHSDOIAHSODHO OIAS HD OASHD I",
+        "I can't thank Ibrahim enough for the incredible work they did on my website. Their ability to grasp my vision and turn it into a functional, user-friendly site was remarkable. I am thrilled with the outcome and wouldn't hesitate to recommend them to others.",
+      name: "Fared Gosma",
     },
     {
       src: Slide3,
       content:
-        "ASDH ASD AISD AW R AWR QWR QW AS 9Q W W   ASDIAS JH ASID HIASD 0A9 SASD HASD AS 9AS ",
+        "I had the pleasure of hiring Ibrahim for a critical web development project, and they exceeded my expectations in every way. Their coding skills, problem-solving abilities, and dedication to the website's success were remarkable. I wholeheartedly endorse their work.",
+      name: "Waleed Ahmed",
     },
   ];
   let [currentIndex, setSlideIndex] = useState(0);
@@ -86,6 +89,7 @@ function Blog() {
                       ></i>
                     </h2>
                     <p>{slides[currentIndex].content}</p>
+                    <h3 className="clientName">{slides[currentIndex].name}</h3>
                   </div>
 
                   <div className="slide-indicators">{slideIndicators}</div>

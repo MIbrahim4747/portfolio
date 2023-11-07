@@ -1,5 +1,8 @@
 import React from "react";
 import Logo1 from "../images/logo1.png";
+import Logo2 from "../images/Delano Hotel (1).png";
+import Logo3 from "../images/Markus Lanz (1).png";
+import Logo4 from "../images/Walt Disney Studios Motion Pictures.png";
 
 function Content() {
   return (
@@ -86,14 +89,14 @@ function Content() {
           <section className="logos">
             <div>
               <img src={Logo1} alt="logo1" />
-              <img src={Logo1} alt="logo1" />
-              <img src={Logo1} alt="logo1" />
-              <img src={Logo1} alt="logo1" />
+              <img src={Logo2} alt="logo2" />
+              <img src={Logo3} alt="logo3" />
+              <img src={Logo4} alt="logo4" />
             </div>
             <div>
-              <img src={Logo1} alt="logo1" />
-              <img src={Logo1} alt="logo1" />
-              <img src={Logo1} alt="logo1" />
+              <img src={Logo4} alt="logo4" />
+              <img src={Logo3} alt="logo3" />
+              <img src={Logo2} alt="logo2" />
               <img src={Logo1} alt="logo1" />
             </div>
           </section>

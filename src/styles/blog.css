@@ -2,7 +2,7 @@
   min-height: 70vh;
   background-color: var(--secondary-clr);
   color: white;
-  padding-block: 10vh;
+  padding-top: 5vh;
 }
 
 .blogTop {
@@ -38,7 +38,6 @@
 
 .blogBottom {
   min-height: 50vh;
-  padding-block: 4vh;
 }
 
 .slideshow-container {
@@ -110,4 +109,8 @@
 
 .slide-indicator.active {
   background-color: #ffc25c;
+}
+
+.clientName {
+  padding-block: 2rem;
 }
