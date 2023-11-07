@@ -1,0 +1,83 @@
+.footer {
+  background-color: #333646;
+}
+
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerLeft {
+  flex: 0 0 40%;
+}
+
+.footerLeft p {
+  margin-bottom: 2rem;
+}
+.footerRight {
+  flex: 0 0 40%;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  padding-block: 5px;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid gray;
+}
+
+.textArea label {
+  padding-bottom: 1.3rem;
+  cursor: pointer;
+}
+
+.pin button {
+  width: 30px;
+  background-color: transparent;
+  color: #fec152;
+  cursor: pointer;
+  border: none;
+}
+.textArea textarea {
+  background-color: transparent;
+  color: var(--off-white);
+  border: none;
+  border-bottom: 0.5px solid gray;
+
+  padding: 10px;
+  outline: none;
+}
+
+.question input {
+  background-color: transparent;
+  border: none;
+  color: var(--off-white);
+  outline: none;
+  border-bottom: 0.5px solid gray;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5em;
+}
+
+.footerBottom > * {
+  margin-bottom: 2rem;
+}
+
+.footer .logo img {
+  margin: auto;
+}
+
+.textArea-label {
+  justify-content: space-between;
+  display: flex;
+}

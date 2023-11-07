@@ -1,0 +1,16 @@
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logos div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logos div img {
+  width: 6%;
+}

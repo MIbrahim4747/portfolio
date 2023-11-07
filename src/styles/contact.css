@@ -1,0 +1,50 @@
+.contact {
+  display: flex;
+  padding-top: 5vh;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.contactLeft {
+  flex: 1;
+  padding: 3vh 5vw;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contactLeft h1 {
+  font-size: 3vw;
+}
+
+.contactRight {
+  width: 80%;
+  flex: 1;
+}
+
+.contactRight p {
+  font-size: 14px;
+  padding-block: 6vh;
+}
+
+.expClient {
+  display: flex;
+}
+
+.experience,
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.number {
+  font-size: 5vw;
+  color: #fec15b;
+}
+
+.EMAIL {
+  font-size: var(--sm-font);
+}

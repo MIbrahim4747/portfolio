@@ -1,0 +1,40 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3rem;
+  z-index: 3;
+}
+
+.cards > * {
+  flex-basis: 33%;
+}
+
+.card {
+  width: calc(25vw);
+  min-height: calc(30vh);
+  background-color: #424657;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  gap: 4vw;
+}
+
+.card h3 {
+  font-size: calc(15px + 0.5rem);
+  font-weight: 500;
+}
+
+.card h4 {
+  font-weight: 400;
+}
+
+.cardLogo i {
+  font-size: calc(20px + 1rem);
+}
+
+.card.active {
+  background-color: #ffaf29;
+}
